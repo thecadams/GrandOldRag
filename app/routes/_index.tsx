@@ -85,7 +85,7 @@ export default function Index() {
 
   return (
     <div className="flex flex-col h-[calc(100dvh)] font-dosis bg-blue-900 text-white">
-      <h2 className="text-center my-2 text-blue-50 font-dosis font-bold text-2xl">Grand Old RAG</h2>
+      <h2 className="text-center my-2 text-blue-50 font-dosis font-bold text-2xl">Grand Old RAG: AFL Expert AI Chat</h2>
       <div ref={messagesContainerRef} className="flex-1 overflow-y-auto p-4 border-t border-b border-blue-700 bg-blue-100 pb-10">
         <div className="sticky mb-4 flex w-full justify-between">
           <button onClick={clearChat} className="flex-start p-2 bg-blue-700 border-1 border-blue-300 rounded-sm shadow-lg">Clear</button>
